@@ -84,3 +84,15 @@ main #submit{
     display:flex;
 }
 /* END OF THE MAIN SECTION*/
+
+
+/*video section*/
+.video video{
+    width:40%;
+    
+   margin:auto;
+   display:block;
+   margin-top: 40px;
+   margin-bottom:40px;
+}
+
