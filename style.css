@@ -63,4 +63,24 @@ main #submit{
     font-weight: bold;
 }
 
+
+/* MATERIAL SERVICES STYLE*/
+
+.material-services{
+    width:60%;
+    margin:auto;
+}
+
+.material-services .premium-materials{
+    display:flex;
+}
+
+.material-services .fast-shiping{
+    display:flex;
+}
+
+
+.material-services .quality-assurance{
+    display:flex;
+}
 /* END OF THE MAIN SECTION*/
