@@ -42,3 +42,25 @@ body{
 }
 
 /* END OF HEADER STYLE SECTION*/
+
+* MAIN SECTION STYLE*/
+main{
+    text-align:center;
+    color:rgb(59, 56, 56);
+    margin-top:80px;
+    margin-bottom:50px;
+}
+main input{
+    width:300px;
+}
+main #submit{
+    background:rgb(255, 196, 0);
+    padding:4px;
+    padding-left:30px;
+    padding-right:30px;
+    margin-top:20px;
+    font-size:14px;
+    font-weight: bold;
+}
+
+/* END OF THE MAIN SECTION*/
