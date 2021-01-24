@@ -43,7 +43,8 @@ body {
 
 /* END OF HEADER STYLE SECTION*/
 
-* MAIN SECTION STYLE*/ main {
+/* MAIN SECTION STYLE*/ 
+main {
     text-align: center;
     color: rgb(59, 56, 56);
     margin-top: 80px;
