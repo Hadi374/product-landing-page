@@ -96,3 +96,57 @@ main #submit{
    margin-bottom:40px;
 }
 
+
+/*prices section*/
+
+.prices{
+    display:flex;
+    justify-content:center;
+    
+    padding:20px;
+}
+
+.prices h1{
+    margin:-10px;
+    padding:15px;
+    clear:both;
+    font-size:16px;
+    font-weight: bold;
+    background:rgb(224, 224, 224);
+   
+}
+
+.prices p{
+    line-height:2.5em;
+}
+.prices .tenor-trombone{ 
+    border:1px rgb(0, 0, 0) solid;
+    width:300px;
+    margin-left:20px;
+    padding:10px;
+    text-align:center;
+}
+
+.prices .bass-trombone{ 
+    border:1px rgb(0, 0, 0) solid;
+    width:300px;
+    padding:10px;
+    text-align:center;
+    margin-left:20px;
+}
+
+.prices .valve-trombone{ 
+    border:1px rgb(0, 0, 0) solid;
+    width:300px;
+    padding:10px;
+    text-align:center;
+    margin-left:20px;
+}
+
+.prices button{
+    text-align:center;
+    background:goldenrod;
+    font-weight: bold;
+    padding:6px 20px 6px 20px;
+}
+/* END OF PRICES SECTION STYLE*/
