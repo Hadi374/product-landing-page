@@ -243,3 +243,79 @@ footer{
 }
 }
 
+/* Media querries For Phone*/
+@media only screen and (min-width:362px) and (max-width:600px){
+ 
+    #header{
+        display: flex;
+        flex-direction:column;
+        height:140px;
+        margin-top:-140px;
+    }
+
+    header #header-img{
+        padding-top:20px;
+        width:60%;
+        margin:auto;
+    }
+
+
+    #header #nav-bar ul{
+    display: flex;
+    flex-direction:column;
+    
+    text-align:center;
+
+}
+
+main{
+    margin-top:140px;
+}
+
+ 
+  .material-services{
+      margin:0;
+      margin-left:20px;
+      margin-right:20px;
+      width:90%;
+      text-align:justify;
+  }
+
+  .material-services  h3{
+      text-align:center;
+  }
+
+
+.material-services img{
+    display: none;
+}
+
+
+
+.prices{
+    flex-direction: column;
+    margin:auto;
+    width:80%;
+   
+    
+}
+
+.prices .tenor-trombone{
+    margin-bottom:20px;
+}
+
+.prices .bass-trombone{
+margin-bottom:20px;
+}
+
+.video video{
+    width:100%;
+}
+
+footer{
+    width:98%;
+    margin-left:0;
+}
+}
+
+
