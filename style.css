@@ -172,33 +172,23 @@ footer .footer-links a {
 
 /* Media querries for Tablet*/
 @media only screen and (min-width:650px) and (max-width:800px) {
+
+    #header #header-img {
+        display: none;
+    }
     #header #nav-bar ul {
         margin-right: 15px;
     }
 
     .material-services {
-        margin-left: 8%;
-        margin-right: 5%;
-        width: 90%;
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 96%;
     }
 
     .video video {
         width: 90%;
-
     }
-
-    .prices {
-        display: flex;
-        flex-direction: column;
-        margin: auto;
-        width: 50%;
-    }
-
-    footer {
-        width: 98%;
-        margin-left: 0;
-    }
-
 }
 
 
