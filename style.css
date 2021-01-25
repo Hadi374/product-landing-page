@@ -59,6 +59,9 @@ main {
 
 main input {
     width: 300px;
+    margin-top: 40px;
+    height: 32px;
+    padding-left: 6px;
 }
 
 main #submit {
