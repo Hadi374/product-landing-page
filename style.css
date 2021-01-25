@@ -152,15 +152,14 @@ main #submit {
 
 /*FOOTER STYLE SECTION*/
 footer {
-    text-align: end;
-    margin-top: 50px;
+    text-align: center;
+    
     background: rgb(224, 224, 224);
-    padding: 10px;
-    padding-top: 30px;
+    height: 56px;
+    padding-top: 10px;
     color: gray;
-    line-height: 0.5em;
-    margin: 0 150px 0 150px;
-
+    line-height: 1.2em;
+    padding-bottom: 4px;
 }
 
 footer .footer-links a {
