@@ -1,3 +1,10 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    outline: none;    /* chrome has a black outline around focused item */
+}
+
 body {
     background: rgb(240, 240, 240);
     font-size: 100%;
