@@ -97,6 +97,9 @@ main #submit {
 
 /* END OF THE MAIN SECTION*/
 
+.section {
+    padding-top: 64px;
+}
 
 /*video section*/
 .video video {
