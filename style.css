@@ -10,7 +10,9 @@ body {
     font-size: 100%;
 }
 
-
+.container main h2 {
+    padding-top: 100px;
+}
 
 
 /* HEADER STYLE SECTION*/
@@ -190,10 +192,14 @@ footer .footer-links a {
 
 
 /* Media querries For Phone*/
-@media only screen and (min-width:362px) and (max-width:650px) {
+@media only screen and (max-width:650px) {
 
     header #header-img {
         display: none;
+    }
+
+    #features {
+        margin-left: -34px;
     }
 
     .material-services {
