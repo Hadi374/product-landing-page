@@ -205,17 +205,8 @@ footer .footer-links a {
 /* Media querries For Phone*/
 @media only screen and (min-width:362px) and (max-width:650px) {
 
-    #header {
-        display: flex;
-        flex-direction: column;
-        height: 140px;
-        margin-top: -140px;
-    }
-
     header #header-img {
-        padding-top: 20px;
-        width: 60%;
-        margin: auto;
+        display: none;
     }
 
 
