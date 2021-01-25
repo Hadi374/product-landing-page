@@ -114,7 +114,7 @@ main #submit {
 .prices {
     display: flex;
     justify-content: center;
-
+    flex-wrap: wrap;
     padding: 20px;
 }
 
@@ -134,7 +134,7 @@ main #submit {
 
 .price-item {
     border: 1px rgb(0, 0, 0) solid;
-    min-width: 300px;
+    width: 300px;
     margin: 20px;
     padding: 10px;
     text-align: center;
