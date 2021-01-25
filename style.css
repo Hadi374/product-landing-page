@@ -176,9 +176,6 @@ footer .footer-links a {
     #header #header-img {
         display: none;
     }
-    #header #nav-bar ul {
-        margin-right: 15px;
-    }
 
     .material-services {
         margin-left: 2%;
@@ -199,25 +196,9 @@ footer .footer-links a {
         display: none;
     }
 
-
-    #header #nav-bar ul {
-        display: flex;
-        flex-direction: column;
-
-        text-align: center;
-
-    }
-
-    main {
-        margin-top: 140px;
-    }
-
-
     .material-services {
-        margin: 0;
-        margin-left: 20px;
-        margin-right: 20px;
-        width: 90%;
+        margin: auto;
+        width: 99%;
         text-align: justify;
     }
 
@@ -230,29 +211,7 @@ footer .footer-links a {
         display: none;
     }
 
-
-
-    .prices {
-        flex-direction: column;
-        margin: auto;
-        width: 80%;
-
-
-    }
-
-    .prices .tenor-trombone {
-        margin-bottom: 20px;
-    }
-
-    .prices .bass-trombone {
-        margin-bottom: 20px;
-    }
-
     .video video {
         width: 100%;
     }
-
-    footer {
-        width: 98%;
-        margin-left: 0;
-    }
+}
