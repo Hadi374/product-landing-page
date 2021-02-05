@@ -1,3 +1,10 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    outline: none;    /* chrome has a black outline around focused item */
+}
+
 body {
     background: rgb(240, 240, 240);
     font-size: 100%;
@@ -48,9 +55,7 @@ h3 {
 }
 
 #header-img {
-    width: 30%;
-    height: 40px;
-    margin-top: 10px;
+    width: 330px;
 }
 
 #header #nav-bar {
@@ -140,6 +145,9 @@ h3 {
 
 /* END OF THE MAIN SECTION*/
 
+.section {
+    padding-top: 64px;
+}
 
 /*video section*/
 .video video {
@@ -198,8 +206,8 @@ footer {
     text-align: center;
     margin-top: 50px;
     background: rgb(224, 224, 224);
-    padding: 10px;
-    padding-top: 30px;
+    height: 56px;
+    padding-top: 10px;
     color: gray;
     line-height: 0.5em;
     margin: 0px;
