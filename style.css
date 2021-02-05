@@ -1,16 +1,22 @@
 body {
     background: rgb(240, 240, 240);
     font-size: 100%;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
-
+h3 {
+    margin: 0px;
+}
 
 
 /* HEADER STYLE SECTION*/
 #header {
     display: flex;
     justify-content: space-between;
-    background: rgb(240, 240, 240);
+    background: rgb(209, 209, 209);
+    box-shadow: 0px 0px 5px 5px rgba(102, 102, 102, 0.411);
     height: 64px;
     /*margin-top: -80px;*/
 }
@@ -24,15 +30,38 @@ body {
     padding-top: 64px;
 }
 
+.container {
+    display: flex;
+}
+
+.center {
+    justify-content: center;
+}
+
+.fixed-width {
+    width: 300px !important;
+    min-width: 300px;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 0px 0px 15px 0px rgba(102, 102, 102, 0.486);
+    margin: 20px;
+    text-align: center;
+}
+
 #header-img {
     width: 30%;
     height: 40px;
     margin-top: 10px;
 }
 
+#header #nav-bar {
+    height: 64px;
+    width:90%;
+}
+
 #header #nav-bar ul {
-    display: flex;
-    margin-right: 5em;
+    justify-content: flex-end;
+    align-items: center;
+    width: 90%;
 }
 
 #header #nav-bar ul li {
@@ -40,7 +69,6 @@ body {
     padding-left: 2em;
 
 }
-
 
 #header #nav-bar ul li a {
     text-decoration: none;
@@ -50,18 +78,22 @@ body {
 /* END OF HEADER STYLE SECTION*/
 
 /* MAIN SECTION STYLE*/ 
-main {
+#form {
     text-align: center;
     color: rgb(59, 56, 56);
     margin-top: 80px;
     margin-bottom: 50px;
 }
 
-main input {
+#form input {
     width: 300px;
+    height: 32px;
+    border-radius: 4px;
+    border: 1px solid rgba(105, 105, 105, 0.363);
+    box-shadow: 0px 0px 8px 0px rgba(87, 87, 87, 0.192);
 }
 
-main #submit {
+#form #submit {
     background: rgb(255, 196, 0);
     padding: 4px;
     padding-left: 30px;
@@ -74,23 +106,37 @@ main #submit {
 
 /* MATERIAL SERVICES STYLE*/
 
-.material-services {
-    width: 60%;
+#features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin: auto;
 }
 
-.material-services .premium-materials {
+#features .feature {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 16px;
 }
 
-.material-services .fast-shiping {
-    display: flex;
+#features .feature .info {
+    width: 50%;
+    margin-left: 8px;
 }
 
-
-.material-services .quality-assurance {
-    display: flex;
+#features .feature .info p {
+    margin-top: 10px;
 }
+
+#features .feature .image {
+    border: 1px rgba(0, 0, 0, 0.157) solid;
+    background: linear-gradient(to top, #319bff, #a3a0a0);
+    box-shadow: 0px 0px 15px 1px rgba(92, 92, 92, 0.342);
+    width: 128px;
+    height: 128px;
+}
+
 
 /* END OF THE MAIN SECTION*/
 
@@ -113,11 +159,11 @@ main #submit {
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 0px;
 }
 
 .prices h1 {
-    margin: -10px;
+    margin: 0px;
     padding: 15px;
     clear: both;
     font-size: 16px;
@@ -125,15 +171,7 @@ main #submit {
     background: rgb(224, 224, 224);
 
 }
-.fixed-width {
-    width: 300px !important;
-    min-width: 300px;
-    background-color: honeydew;
-    border: 1px rgb(0, 0, 0) solid;
-    padding: 10px;
-    margin: 20px;
-    text-align: center;
-}
+
 
 .prices p {
     line-height: 2.5em;
@@ -142,8 +180,13 @@ main #submit {
 
 .prices button {
     text-align: center;
-    background: goldenrod;
+    margin-bottom: 16px;
+    background: rgb(245, 186, 37);
     font-weight: bold;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.089);
+    text-shadow: 0px 0px 4px rgba(90, 90, 90, 0.294);
+    box-shadow: 0px 0px 8px 2px rgba(65, 65, 65, 0.363);
     padding: 6px 20px 6px 20px;
 }
 
@@ -152,14 +195,14 @@ main #submit {
 
 /*FOOTER STYLE SECTION*/
 footer {
-    text-align: end;
+    text-align: center;
     margin-top: 50px;
     background: rgb(224, 224, 224);
     padding: 10px;
     padding-top: 30px;
     color: gray;
     line-height: 0.5em;
-    margin: 0 150px 0 150px;
+    margin: 0px;
 
 }
 
@@ -173,104 +216,72 @@ footer .footer-links a {
 /*Media Querries for land-scape phone screen*/
 @media only screen and (min-width:600px) and (max-width:750px) {
 
-    #header {
-        height: 32px;
-    }
     #header-img {
         display: none;
     }
+    #features .feature .image {
+        display: none;
+    }
+    #features .feature .info {
+        width: 80%;
+    }
 
     #header #nav-bar ul {
-        display: flex;
-        flex-direction: row;
-        margin-right: 140px;
-        text-align: center;
+        width:100%;
     }
-
-    main {
-        margin-top: 120px;
-    }
-
-    .prices {
-        flex-direction: row;
-        flex-wrap: wrap;
-
-        margin-bottom: 30px !important;
-        justify-content: space-between;
-
-    }
-
 
     .video video {
         width: 90%;
     }
 
-    footer {
-        width: 98%;
-        margin-left: 0;
-    }
 }
 
 /* Media querries For Phone*/
 @media only screen and (min-width:362px) and (max-width:600px) {
 
-    #header {
-        height: 32px;
-    }
     #header-img {
         display: none;
     }
+    #features .feature .image {
+        display: none;
+    }
+    #features .feature .info {
+        width: 95%;
+    }
 
     #header #nav-bar ul {
-        display: flex;
-        flex-direction: row;
-        margin-right: 140px;
-        text-align: center;
+        justify-content: space-around;
+        padding-left: 0%;
     }
 
-    main {
-        margin-top: 140px;
+    #header #nav-bar ul li {
+        padding-left: 0;
     }
 
-
-    .material-services {
-        margin: 0;
-        margin-left: 20px;
-        margin-right: 20px;
+    .features {
+        margin: 0 20px;
         width: 90%;
         text-align: justify;
     }
 
-    .material-services h3 {
+    .features h3 {
         text-align: center;
     }
 
-    .material-services img {
+    .features img {
         display: none;
     }
 
     .prices {
-        flex-direction: column;
+        
         margin: auto;
-        width: 80%;
-
-
+        width: 100%;
     }
-
-    .prices .tenor-trombone {
-        margin-bottom: 20px;
+    .prices .item {
+        margin: 20px;
     }
-
-    .prices .bass-trombone {
-        margin-bottom: 20px;
-    }
-
     .video video {
         width: 100%;
     }
 
-    footer {
-        width: 98%;
-        margin-left: 0;
-    }
 }
